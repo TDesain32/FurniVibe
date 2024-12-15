@@ -1,0 +1,23 @@
+:root{
+    --warna-bg: #81bfda ;
+}
+
+
+body{
+    background-color:var(--warna-bg)
+}
+.navbar-brand{
+    color: rgb(0, 0, 0);
+}
+.form-control{
+    background-color: rgba(136, 136, 136, 0.648);
+    color: white;
+}
+.form-control:hover{
+    background-color: rgba(181, 181, 181, 0.648);
+    color: white;
+}
+a.nav-link:hover{
+    color: rgb(0, 72, 255);
+
+}
