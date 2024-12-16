@@ -1,9 +1,13 @@
 :root{
-    --warna-bg: #81bfda ;
+    --warna-bg: #ffffff ;
 }
 
+* {
+    font-family: "Space Grotesk", sans-serif;
+}
 
 body{
+    font-family: "Space Grotesk", sans-serif;
     background-color:var(--warna-bg)
 }
 .navbar-brand{
