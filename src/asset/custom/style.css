@@ -35,15 +35,17 @@ button{
     border-radius: 4px;
     border-color: transparent;
     border: none;
-
-
 }
+
 img:hover{
     color: rgb(255, 255, 255);    
 }
-.card:hover{
-  
-}
+
 .d-flex{
     color: white;
+}
+
+.active {
+    color: blue !important;
+    font-weight: 700;
 }

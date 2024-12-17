@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FurniVibe</title>
-    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./asset/custom/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FurniVibe</title>
+  <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./asset/custom/style.css">
 
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
-      body {
-        font-family: "Space Grotesk", sans-serif;
-      }
-    </style>
+    body {
+      font-family: "Space Grotesk", sans-serif;
+    }
+  </style>
 </head>
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 <body>
+  <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
     <div class="container">
       <a class="navbar-brand" href="#">
@@ -25,21 +28,14 @@
           <h5 class="text-dark">FurniVibe</h5>
         </div>
       </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-itehttp://127.0.0.1:3000/src/pages/index.html#m">
-            <a class="nav-link active" aria-current="page" href="../src/index.html" style="color: rgba(0, 0, 0, 0.568)
+          <li class="nav-item http://127.0.0.1:3000/src/pages/index.html#m">
+            <a class="nav-link" href="../src/index.html" style="color: rgba(0, 0, 0, 0.568)
              ;">Home</a>
           </li>
           <li class="nav-item">
@@ -49,219 +45,448 @@
             <a class="nav-link" href="../src/pages/contact.html">Contact</a>
           </li>
           <li class="nav-item dropdown">
-            <a
-            style="color: black;"
-              class="nav-link dropdown-toggle"
-              href="../src/pages/product.html"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Product
             </a>
             <ul class="dropdown-menu">
-              <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
-              <li><a class="dropdown-item" href="#table">Meja</a></li>
-              <li><a class="dropdown-item" href="#Kursi">Kursi</a></li>
-              <li><a class="dropdown-item" href="#lemari">Lemari</a></li>
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+                data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+                <li><a class="dropdown-item" href="./pages/product.html#table">Meja</a></li>
+                <li><a class="dropdown-item" href="./pages/product.html#Kursi">Kursi</a></li>
+                <li><a class="dropdown-item" href="./pages/product.html#lemari">Lemari</a></li>
             </ul>
           </li>
           <li class="nav-item"></li>
         </ul>
         <div class="d-flex" role="search">
-          <input
-            class="form-control me-2 w-500"
-            type="search"
-            placeholder="Search Furniture"
-            aria-label="Search"
-          />
+          <input class="form-control me-2 w-500" type="search" placeholder="Search Furniture" aria-label="Search" />
         </div>
         </form>
       </div>
     </div>
   </nav>
-</div>
-    <div class="container">
-        <div class="row pt-5 mt-5 align-items-center" data-aos="fade">
-            <div class="col-md-6">
-                <h1 class="display-4 fw-bold">
-                  FurniVibe
-                  <span class="text-primary">Furniture</span>
-                </h1>
-                <p class="fw-semibold">Harga Ekonomis dompet kritis</p>
-                <p>FurniVibe menyediakan furnitur berkualitas dengan desain modern untuk rumah, kantor, dan ruang komersial. Kami berfokus pada kenyamanan, gaya, dan fungsionalitas, membantu Anda menciptakan ruang impian dengan pilihan produk terbaik dan layanan yang profesional.</p>
-                <a class="btn btn-dark btn-lg mb-3" href="./pages/product.html">Get Started</a>
-                <!-- <h1>Furniture</h1> -->
-            </div>
-    
-            <div class="col-md-6" data-aos="fade-up" >
-              <div class="row">
-                <div id="hero-image" class="col-12 col-md-6" >
-                  <img class="img-fluid" src="https://i0.wp.com/catesthill.com/wp-content/uploads/2017/08/small-space-living-stockholm-12.jpg?resize=900%2C600" alt="hero">
-                </div>
-                <div id="hero-image" class="col-6 d-none d-md-block">
-                  <img class="img-fluid" src="https://img.freepik.com/free-photo/room-interior-design_23-2148899486.jpg?t=st=1734266433~exp=1734270033~hmac=298e57b33f4c459063150ba8980937d38dc5f9d2e76eb43cde150f0336f747de&w=900" alt="hero">
-                </div>
-              </div>
-              <div class="row pt-3 d-none d-md-block">
-                <div class="col-12"  style="height: 30vh; overflow: hidden;">
-                  <img class="img-fluid" src="https://rugandhome.com/cdn/shop/articles/bedroom-furnishing-ideas-and-decor-to-transform-your-space-600242_1000x.jpg?v=1723120995" alt="hero">
-                </div>
-              </div>
-            </div>
+  <!-- End navbar -->
 
-        </div>
+  <!-- Container -->
+  <div class="container">
+    <div class="row pt-5 mt-5 align-items-center" data-aos="fade">
+      <div class="col-md-6">
+        <h1 class="display-4 fw-bold">
+          FurniVibe
+          <span class="text-primary">Furniture</span>
+        </h1>
+        <p class="fw-semibold">Harga Ekonomis dompet kritis</p>
+        <p>FurniVibe menyediakan furnitur berkualitas dengan desain modern untuk rumah, kantor, dan ruang komersial.
+          Kami berfokus pada kenyamanan, gaya, dan fungsionalitas, membantu Anda menciptakan ruang impian dengan pilihan
+          produk terbaik dan layanan yang profesional.</p>
+        <a class="btn btn-dark btn-lg mb-3" href="./pages/product.html">Get Started</a>
+        <!-- <h1>Furniture</h1> -->
+      </div>
 
-        <div class="row text-center pt-5 mt-5" data-aos="fade-down">
-          <h3 class="fw-bold text-dark">Kategori Furniture</h3>
-          <p class="text-dark">Berikut Kategori furnitur yang kami sediakan untuk anda</p>
-        </div>
-        <div class="row justify-content-center pb-5">
-          <div class="col-md-2 col-4 pt-2" data-aos="fade-down">
-            <div class="card">
-              <div class="card-body">
-                <img src="./asset/icons/table.svg" style="height: 20px; background-color: rgba(173, 216, 230, 0); width: 20px;">
-                <p class="card-text">Meja</p>
-                
-              </div>
-            </div>
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="row">
+          <div id="hero-image" class="col-12 col-md-6">
+            <img class="img-fluid"
+              src="https://i0.wp.com/catesthill.com/wp-content/uploads/2017/08/small-space-living-stockholm-12.jpg?resize=900%2C600"
+              alt="hero">
           </div>
-          <div class="col-md-2 col-4 pt-2" data-aos="fade-down">
-            <div class="card">
-              <div class="card-body">
-                <img src="./asset/icons/lamp-svgrepo-com.svg" style="height: 20px;  background-color: rgba(173, 216, 230, 0); width: 20px;">
-                <p class="card-text">Lampu</p>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-4 pt-2" data-aos="fade-down">
-            <div class="card">
-              <div class="card-body">
-                <img src="./asset/icons/chair.svg"style="height: 20px; width: 20px;">
-                <p class="card-text">Kursi</p>
-                
-              </div>
-            </div>
-          </div>
+          <div id="hero-image" class="col-6 d-none d-md-block">
+            <img class="img-fluid"
+              src="https://img.freepik.com/free-photo/room-interior-design_23-2148899486.jpg?t=st=1734266433~exp=1734270033~hmac=298e57b33f4c459063150ba8980937d38dc5f9d2e76eb43cde150f0336f747de&w=900"
+              alt="hero">
           </div>
         </div>
-
-
-
-
+        <div class="row pt-3 d-none d-md-block">
+          <div class="col-12" style="height: 30vh; overflow: hidden;">
+            <img class="img-fluid"
+              src="https://rugandhome.com/cdn/shop/articles/bedroom-furnishing-ideas-and-decor-to-transform-your-space-600242_1000x.jpg?v=1723120995"
+              alt="hero">
+          </div>
+        </div>
+      </div>
 
     </div>
-    <footer class="text-center bg-dark text-white">
-      <!-- Grid container -->
-      <div class="container">
-        <!-- Section: Links -->
-        <section class="mt-5">
-          <!-- Grid row-->
-          <div class="row text-center d-flex justify-content-center pt-5">
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-white" style="text-decoration: none;">About</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
-  
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="product.html" class="text-white" style="text-decoration: none;
 
-                ">Products</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
-  
-            <!-- Grid column -->
-            <!-- Grid column -->
-  
-            <!-- Grid column -->
-           
-            <!-- Grid column -->
-  
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="contact.html" 
-                class="text-white" style="text-decoration: none;">Contact</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
-          </div>
-          <!-- Grid row-->
-        </section>
-        <!-- Section: Links -->
-  
-        <hr class="my-5" />
-  
-        <!-- Section: Text -->
-        <section class="mb-5">
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-8">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                distinctio earum repellat quaerat voluptatibus placeat nam,
-                commodi optio pariatur est quia magnam eum harum corrupti
-                dicta, aliquam sequi voluptate quas.
-              </p>
-              <a href="#">
-              </a>
+    <div class="row text-center pt-5 mt-5" data-aos="fade-down">
+      <h3 class="fw-bold text-dark">Kategori Furniture</h3>
+      <p class="text-dark">Berikut Kategori furnitur yang kami sediakan untuk anda</p>
+    </div>
+    <div class="row justify-content-center pb-5">
+      <div class="col-md-2 col-4 pt-2" data-aos="fade-down">
+        <a href="./pages/product.html#meja" class="text-decoration-none">
+          <div class="card">
+            <div class="card-body">
+              <img src="./asset/icons/table.svg"
+                style="height: 20px; background-color: rgba(173, 216, 230, 0); width: 20px;">
+              <p class="card-text">Meja</p>
+
             </div>
           </div>
-        </section>
-        <!-- Section: Text -->
-  
-        <!-- Section: Social -->
-        <section class="text-center mb-5">
-          <a href="" class="text-white me-4">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-google"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-github"></i>
-          </a>
-        </section>
-        <!-- Section: Social -->
+        </a>
       </div>
-      <!-- Grid container -->
-  
-      <!-- Copyright -->
-      <div
-           class="text-center p-3"
-           style="background-color: rgba(0, 0, 0, 0.2)"
-           >
-           Github:
-        <a class="text-white" href="https://mdbootstrap.com/"
-           ></a
-           <i class="fa-brands fa-github"></i>
-          >
+      <div class="col-md-2 col-4 pt-2" data-aos="fade-down">
+        <a href="./pages/product.html#lemari" class="text-decoration-none">
+          <div class="card">
+            <div class="card-body">
+              <img src="./asset/icons/lemari.svg"
+                style="height: 20px;  background-color: rgba(173, 216, 230, 0); width: 20px;">
+              <p class="card-text">Lemari</p>
+
+            </div>
+          </div>
+        </a>
       </div>
-      <!-- Copyright -->
-    </footer>
+      <div class="col-md-2 col-4 pt-2" data-aos="fade-down">
+        <a href="./pages/product.html#Kursi" class="text-decoration-none">
+          <div class="card">
+            <div class="card-body">
+              <img src="./asset/icons/chair.svg" style="height: 20px; width: 20px;">
+              <p class="card-text">Kursi</p>
+
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- why choose us -->
+    <div class="row my-5 py-5">
+      <div class="mb-5">
+        <h2 class="text-dark text-center">Kenapa harus FurniVibe?</h2>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end why choose us -->
+
+    <!-- gallery -->
+    <!-- 4column -->
+    <div class="row mt-5 pt-5 mb-3">
+      <div class="mb-5">
+        <h2 class="text-dark text-center">Gallery Kami</h2>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="./asset/img/lemari-2.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="./asset/img/lemari-2.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="./asset/img/lemari-2.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="./asset/img/lemari-2.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <!-- 2column -->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="./asset/img/lemari-2.jpg" class="card-img-top" style="aspect-ratio: 16/9;" alt="...">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src="./asset/img/lemari-2.jpg" class="card-img-top" style="aspect-ratio: 16/9;" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <!-- 3column -->
+    <div class="row mt-3 mb-5 pb-5">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./asset/img/lemari-2.jpg" class="card-img-top" style="aspect-ratio: 16/9;" alt="...">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./asset/img/lemari-2.jpg" class="card-img-top" style="aspect-ratio: 16/9;" alt="...">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./asset/img/lemari-2.jpg" class="card-img-top" style="aspect-ratio: 16/9;" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <!-- end gallery -->
+
+  </div>
+  <!-- End Container -->
 
 
 
-    <script src="./asset/js/popper.min.js"></script>
-    <script src="./asset/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+  <!-- FAQ -->
+  <section class="bg-light py-3 py-md-5 mt-5">
+    <div class="container mt-5 pt-5">
+      <div class="row mb-5">
+        <div class="col-md-7 mx-auto">
+          <h2 class="h1 mb-3 text-center">FAQ (requently Asked Questions)</h2>
+          <p class="text-secondary mb-5 text-center">
+            Kami harap kamu menemukan jawaban untuk pertanyaan kamu. Jika kamu membutuhkan bantuan, silahkan cari
+            pertanyaan kamu pada laman Support Center atau hubungi kami melalui email.
+          </p>
+        </div>
+      </div>
+      <div class="row gy-5 gy-lg-0 align-items-lg-center">
+        <div class="col-12 col-lg-6">
+          <img class="img-fluid rounded" loading="lazy" src="./asset/img/FAQ.jpg" style="mix-blend-mode: multiply;"
+            alt="How can we help you?">
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row justify-content-xl-end">
+            <div class="col-12 col-xl-11">
+              <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Bagaimana Saya Mengubah Informasi Pembayaran Saya?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>To change your billing information, please follow these steps:</p>
+                      <ul>
+                        <li>Go to our website and sign in to your account.</li>
+                        <li>Click on your profile picture in the top right corner of the page and select "Account
+                          Settings."</li>
+                        <li>Under the "Billing Information" section, click on "Edit."</li>
+                        <li>Make your changes and click on "Save."</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      How Does Payment System Work?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      A payment system is a way to transfer money from one person or organization to another. It is a
+                      complex process that involves many different parties, including banks, credit card companies, and
+                      merchants.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      How Do I Cancel My Account?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>To cancel your account, please follow these steps:</p>
+                      <ul>
+                        <li>Go to our website and sign in to your account.</li>
+                        <li>Click on your profile picture in the top right corner of the page and select "Account
+                          Settings."</li>
+                        <li>Scroll to the bottom of the page and click on "Cancel Account."</li>
+                        <li>Enter your password and click on "Cancel Account."</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End FAQ -->
+
+  <!-- Contact -->
+  <div class="bg-white mt-5 py-5">
+    <div class="container">
+      <div class="row py-5 mt-5 align-items-center">
+        <div class="col-md-6">
+          <form class="p-md-5 p-3 bg-white">
+            <h2 class="text-center">Tetap terhubung dengan kami.</h2>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Example@gmail.com">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Pesan</label>
+              <textarea name="message" rows="8" class="form-control" id="message"
+                placeholder="Text Message Here!"></textarea>
+            </div>
+            <div class="d-flex justify-content-end">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid rounded" loading="lazy" src="./asset/img/FAQ.jpg" style="mix-blend-mode: multiply;"
+            alt="How can we help you?">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact -->
+
+
+
+  <footer class="text-center bg-dark text-white">
+    <!-- Grid container -->
+    <div class="container">
+      <!-- Section: Links -->
+      <section class="mt-5">
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">About us</a>
+            </h6>
+          </div>
+          
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="product.html" class="text-white">Products</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Help</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="contact.html" class="text-white">Contact</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-5" />
+
+      <!-- Section: Text -->
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              distinctio earum repellat quaerat voluptatibus placeat nam,
+              commodi optio pariatur est quia magnam eum harum corrupti
+              dicta, aliquam sequi voluptate quas.
+            </p>
+            <a href="#">
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Social -->
+      <section class="text-center mb-5">
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </section>
+      <!-- Section: Social -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      Github:
+      <a class="text-white" href="https://mdbootstrap.com/"></a <i class="fa-brands fa-github"></i>
+      >
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <script src="./asset/js/popper.min.js"></script>
+  <script src="./asset/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./asset/custom/script.js"></script>
 </body>
+
 </html>
