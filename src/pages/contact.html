@@ -42,7 +42,7 @@
             <a class="nav-link" href="./about.html" style="color: rgba(0, 0, 0, 0.568);">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
+            <a class="nav-link" style="color: rgba(0, 0, 0, 0.568);" href="./contact.html">Contact</a>
           </li>
           <li class="nav-item dropdown">
             <a style="color: black;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -61,6 +61,10 @@
         </ul>
         <div class="d-flex" role="search">
           <input class="form-control me-2 w-500" type="search" placeholder="Search Furniture" aria-label="Search" />
+          <a target="_blank" href="mailto:FajrulSyaban47@gmail.com" class="btn btn-primary d-flex gap-1">
+            <span>Hubungi</span>
+            <span>Kami</span>
+          </a>
         </div>
         </form>
       </div>
@@ -133,7 +137,7 @@
           <!-- Grid column -->
           <div class="col-md-2">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="contact.html" class="text-white">Contact</a>
+              <a href="contact.html" class="text-white" style="text-decoration: none;">Contact</a>
             </h6>
           </div>
           <!-- Grid column -->
@@ -149,10 +153,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-lg-8">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              distinctio earum repellat quaerat voluptatibus placeat nam,
-              commodi optio pariatur est quia magnam eum harum corrupti
-              dicta, aliquam sequi voluptate quas.
+              FurniVibe menyediakan furnitur berkualitas dengan desain modern untuk rumah, kantor, dan ruang komersial. Kami berfokus pada kenyamanan, gaya, dan fungsionalitas, membantu Anda menciptakan ruang impian dengan pilihan produk terbaik dan layanan yang profesional.
             </p>
             <a href="#">
             </a>
@@ -188,8 +189,8 @@
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      Github:
-      <a class="text-white" href="https://mdbootstrap.com/"></a <i class="fa-brands fa-github"></i>
+      2024
+      <a class="text-white" style="text-decoration: none;" href="#">@FurniVibe</a
       >
     </div>
     <!-- Copyright -->
@@ -198,21 +199,8 @@
 
   <script src="../asset/js/popper.min.js"></script>
   <script src="../asset/js/bootstrap.min.js"></script>
-  <script>
-    const links = document.querySelectorAll('.nav-item>.nav-link')
-    const currentPath = window.location.pathname;
-
-    links.forEach(link => {
-      // console.log(link);
-      // Dapatkan path dari setiap link
-      const linkPath = new URL(link.href).pathname;
-      console.log({ linkPath });
-      // Periksa apakah path link sama dengan URL saat ini
-      if (linkPath === currentPath) {
-        link.classList.add('active');
-      }
-    });
-  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="../asset/custom/script.js"></script>
 </body>
 
 </html>
