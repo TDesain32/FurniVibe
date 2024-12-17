@@ -19,11 +19,11 @@ body{
     color: rgb(0, 0, 0);
 }
 .form-control:hover{
-    background-color: rgba(222, 222, 222, 0.648);
+    background-color: rgba(239, 239, 239, 0.648);
     color: rgb(0, 0, 0);
 }
 a.nav-link:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(34, 159, 255);
 
 }
 button{
